@@ -1,0 +1,51 @@
+
+/* *{
+    border: 2px solid;
+} */
+p > mark{
+    color:blue;
+}
+#cloud{
+    font-size: 100px;
+    color:aqua;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top:1000px;
+    left:850px;
+}
+a i:hover{
+    background-color: black;
+    color: black;
+} 
+.one::first-letter{
+    background-color: chartreuse;
+}
+.box_1{
+    width:100px;
+    height:100px;
+    background-color: red;
+    background-image: linear-gradient(red,red);
+
+}
+.box_2{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    background-image: linear-gradient(blue,white);
+}
+.box_3{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    background-image: linear-gradient(to bottom right,white,black);
+}
+body{
+    background-image: linear-gradient(to bottom right, blueviolet,white) no-repeat center center fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+
+
+

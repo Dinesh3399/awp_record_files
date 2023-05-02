@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>login page</title>
+</head>
+<style>
+    * {
+        font-family: 'Itim', cursive;
+    }
+
+    body {
+        background: url("salary.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    /* body{
+        margin:50%;
+    } */
+    .form {
+        /* border:2px solid black; */
+        display: inline-block;
+        position: absolute;
+        top: 45%;
+        left: 45%;
+    }
+
+    form {
+        border: 2px solid #fff;
+        box-shadow: 2px 2px 34px rgba(235, 255, 10, 0.786);
+        display: inline-block;
+        padding: 43px;
+        margin: 20px;
+        height: 200px;
+        width: 392px;
+        background-color: whitesmoke;
+    }
+
+    .container {
+        position: absolute;
+        left: 115px;
+        top: 114px;
+    }
+
+    .submit {
+        height: 100px;
+        position: absolute;
+        display: inline-block;
+        left: 97px;
+        top: 100px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: medium;
+    }
+
+    button {
+        background-color: rgb(51, 112, 187);
+        color: white;
+        position: absolute;
+        font-weight: bolder;
+        border: 2px solid rgb(51, 112, 187);
+        border-radius: 37px;
+        width: 218px;
+        height: 41px;
+        left: -55px;
+    }
+
+    button:hover {
+        background-color: rgb(100, 130, 167);
+    }
+</style>
+
+<body>
+    <div class="form">
+        <form action="backend.php">
+            <h2>LOGIN</h2>
+            <br>
+            <br>
+            <div class="container">
+                <div>
+                    <strong>Username:</strong>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <br>
+                <div>
+                    <strong>Password:</strong>
+                    <input type="password" placeholder="enter the password">
+                </div>
+                <br>
+                <div class="submit">
+                    <button><a href="https://www.w3schools.com/tags/tag_button.asp"
+                            target="_blank"><b>LOGIN</b></a></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

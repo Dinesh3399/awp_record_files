@@ -1,0 +1,179 @@
+.content{
+    background:url("iw.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height:100vh;
+    width: 2000px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    margin-right: 50%;
+}
+
+content h1{
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 1200px;
+    font-size: 80px;
+}
+
+content p{
+    /* border:2px solid black; */
+    display: inline-block;
+    margin-top: 17px;
+    margin-left: 1651px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+header nav ul li a{
+    /* border: 2px solid black; */
+    color:rgba(13, 13, 25,0.4);
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+nav ul li a:hover{
+    /* background-color:rgb(37, 8, 79); */
+    color:black;
+}
+
+.facilities h1{
+    position: relative;
+    left: 90%;
+    margin:30px;
+    font-size: 50px;
+}
+
+.cutm{
+    display: inline-block;
+    position: relative;
+    top:61px;
+    left:92px;
+    width:118px;
+    image-resolution:4000px;
+}
+
+.desc{
+    position: absolute;
+    top:70px;
+}
+
+body{
+    width: 100%;
+}
+nav{
+    width:200%;
+}
+
+.facilities h2{
+    width : 100%;
+    text-align: center;
+}
+
+.facilities div img{
+    width:33.3%; 
+    margin:20px;
+    display: block;
+    position: relative;
+    left:32px;   
+}
+
+.facilities div{
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+
+.images div{
+    background-color: rgb(30, 30, 74);
+    color:white;
+
+}
+
+.images{
+    width:200%;
+}
+.sports{
+    width: 33.3%;
+    margin:20px;
+    position: relative;
+    left: 32px;
+    /* top:32px; */
+    box-shadow: 0 4px 8px 0 rgba(10, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 0, 0, 0.19); 
+}
+.library{
+    width: 33.3%;
+    position: relative;
+    left:500px;
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(10, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 0, 0, 0.19); 
+}
+.mess{
+    width: 33.3%;
+    margin:20px;
+    position: relative;
+    left: 32px;
+    top: 32px;
+    box-shadow: 0 4px 8px 0 rgba(10, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 0, 0, 0.19); 
+}
+.gym{
+    width: 33.3%;
+    position: relative;
+    left:500px;
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(10, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 0, 0, 0.19); 
+}
+.labs{
+    width: 33.3%;
+    margin:20px;
+    position: relative;
+    left: 32px;
+    top:32px;
+    box-shadow: 0 4px 8px 0 rgba(10, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 0, 0, 0.19); 
+}
+.wifi{
+    width: 33.3%;
+    position: relative;
+    left:500px;
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(10, 0, 0, 0.2), 0 6px 20px 0 rgba(10, 0, 0, 0.19); 
+}
+
+.facilities div img{
+    width: 569px;
+    display: inline-block;
+}
+.facilities div h2{
+    display: inline-block;
+    text-align: center;
+    font-size: 47px;
+}
+
+/* .ima div :hover{
+    box-shadow: 5px 5px;
+} */
+
+.facilities .images{
+    background: linear-gradient(to bottom right,rgb(200,180,40),rgb(9, 52, 221));
+}
+
+
